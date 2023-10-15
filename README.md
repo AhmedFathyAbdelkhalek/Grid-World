@@ -9,7 +9,7 @@ Grid_World_MDP.ipynb defines the environment as follows:
 This is a finite Markov decision process (MDP) in which the goal is to find the agent policy which maximizes its future discounted reward. The code also solves it using a system of linear equations
 
 Dynamic programming is implemented in Grid_World_Policy_Iteration.ipynb and finds the optimal policy for the agent using policy iteration technique with:
-- Discount factor of 0.9 .
+- Discount factor of 0.9.
 - Acceptable Tolerance of 0.05 or less.
 
 Feel free to change the the starting state of the agent and other paremeters such as discount factor and tolerance to see how it affects policy iteration.
